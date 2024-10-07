@@ -18,3 +18,7 @@ _*Questão 4:*_
     Fazer um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por
     hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas
     decimais.
+
+_*Questão 5:*_
+    Fazer um programa para ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o
+    código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Calcule e mostre o valor a ser pago.
