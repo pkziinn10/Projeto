@@ -1,1 +1,12 @@
-
+﻿using System;
+using System.Globalization;
+namespace program
+{
+    class Program
+    {
+        static void Main(String[] args)
+        {
+           
+        }
+    }
+}
