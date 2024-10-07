@@ -3,13 +3,19 @@ using System.Globalization;
 namespace program {
     class Program {
         static void Main(String[] args) {
-            int n1, n2, x;
-            Console.WriteLine("Digite um numero:");
-            n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o numero por quanto quer somar:");
-            n2 = int.Parse(Console.ReadLine()); 
-            x = n1 + n2;
-            Console.WriteLine("Valor da soma:"+x);
+            int numFuncionario;
+            double salario, hrsTrabalhadas, quantiaHR;
+
+            Console.WriteLine("Digite o número do funcionário:");
+            numFuncionario = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite suas horas trabalhadas:");
+            hrsTrabalhadas = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite quanto que você:");
+            quantiaHR = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            salario = quantiaHR * hrsTrabalhadas;
+            Console.WriteLine("Numero do funcionário: " + numFuncionario);
+            Console.WriteLine(("O sálario do funcionário e: ")+"U$"+salario.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
