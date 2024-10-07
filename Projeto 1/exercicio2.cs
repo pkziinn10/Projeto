@@ -3,7 +3,11 @@ Questão 2
     casas decimais conforme exemplos.
     Fórmula da área: area = π . raio2
     Considere o valor de π = 3.14159
-
+﻿using System;
+using System.Globalization;
+namespace program {
+    class Program {
+        static void Main(String[] args) {
             double pi, raio, raio2, areaC;
             pi = 3.14159;
             Console.WriteLine("Digite o valor do raio:");
@@ -12,3 +16,6 @@ Questão 2
             areaC = pi * raio2;
             Console.WriteLine("Valor da area da circunferencia e:");
             Console.WriteLine(areaC.ToString("f4",CultureInfo.InvariantCulture));
+        }
+    }
+}
