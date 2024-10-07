@@ -3,6 +3,7 @@ Questão 2
     casas decimais conforme exemplos.
     Fórmula da área: area = π . raio2
     Considere o valor de π = 3.14159
+        
 ﻿using System;
 using System.Globalization;
 namespace program {
